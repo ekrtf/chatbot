@@ -8,7 +8,5 @@ setup(
     description='Messenger bot',
     author='Emile Kratiroff',
     author_email='emile@kratiroff.com',
-    install_requires=[
-        'flask',
-    ]
+    install_requires=['Flask>=0.10.1'],
 )
