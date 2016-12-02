@@ -11,3 +11,6 @@ def main_route():
 @app.route('/webhook', methods=['POST'])
 def receive_message():
 	return 'Do something with message'
+
+if __name__=='__main__':
+  app.run()
