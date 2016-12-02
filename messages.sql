@@ -1,4 +1,3 @@
-
 drop table if exists messages;
 create table messages (
 	'messageId' integer primary key autoincrement,
